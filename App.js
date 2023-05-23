@@ -1,9 +1,9 @@
-import { createStackNavigator } from "@react-navigation/native-stack";
+import { createNativeStackNavigator  } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator ();
 
-import Home from 'src/pages/Home';
+import Home from './src/pages/Home';
 
 export default function App() {
     return (

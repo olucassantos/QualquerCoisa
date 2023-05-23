@@ -2,17 +2,23 @@ import { View, Image, StyleSheet } from 'react-native';
 
 const Logo = () => {
     return (
-        <View>
-            <Image style={estilo.logo} source={require('../assets/logo.png')} />
+        <View style={estilo.container}>
+            <Image style={estilo.logo} source={require('../../assets/icon.png')} />
         </View>
     );
 }
 
 const estilo = StyleSheet.create({
-    logo: {
-        width: 305,
-        height: 159,
+    container: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
         marginBottom: 10,
+        backgroundColor: 'blue'
+    },
+    logo: {
+        width: 100,
+        height: 100,
     }
 });
 
