@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import axios from 'axios';
 
 import Categoria from './Categoria';
@@ -30,9 +30,9 @@ const Categorias = () => {
     console.log(listaCategorias);
 
     return (
-        <View style={estilo.categorias}>
+        <ScrollView style={estilo.categorias}>
             { listaCategorias }
-        </View>
+        </ScrollView>
     );
 }
 

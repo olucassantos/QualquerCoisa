@@ -1,8 +1,7 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, TouchableOpacity } from "react-native";
 
 import estilo from '../style/pagina';
-import { TouchableOpacity } from 'react-native-web';
 
 const Menu = () => {
     return (

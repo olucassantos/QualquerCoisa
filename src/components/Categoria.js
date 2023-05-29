@@ -83,7 +83,7 @@ const estilos = StyleSheet.create({
         backgroundColor: '#FFF',
     },
     titulo: {
-        fontSize: 20,
+        fontSize: "1.2rem",
         fontWeight: 'bold',
         color: '#000'
     },
